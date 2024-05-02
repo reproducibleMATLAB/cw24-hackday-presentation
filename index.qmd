@@ -9,6 +9,7 @@ format:
         code-line-numbers: false
         preview-links: auto
 author: "Gaurav Bhalerao, Dan Cummins, Paddy Roddy,<br> Michael Tso, David Wilby"
+footer: "These slides: [reproduciblematlab.github.io/cw24-hackday-presentation](https://reproduciblematlab.github.io/cw24-hackday-presentation/)"
 date: 05/02/2024 #Date in US format... MM/DD/YYYY
 date-format: "ddd Do MMMM YYYY"
 from: markdown+emoji
@@ -37,7 +38,9 @@ from: markdown+emoji
 
 ### Templates for MATLAB project organisation!
 
+{{< fa brands github-alt >}} [matlab-project-template](https://github.com/reproducibleMATLAB/matlab-project-template){target="_blank"}
 
+:book: [repliMAT: project organisation chapter](https://reproduciblematlab.github.io/code-style/organisation.html){target="_blank"}
 
 ## Project Organisation
 
@@ -50,4 +53,8 @@ e.g.
 + Tests
 + Readme
 + Licenses
+
+## Documenting Dependencies
+
+MATLAB's dependency ecosystem is highly heterogeneous
 
