@@ -1,5 +1,5 @@
 ---
-title: "Template for Quarto Presentations with GitHub actions"
+title: "RepliMAT @ CW24: MATLAB Project Templates for Success"
 format:
     revealjs:
         theme: [serif] # More themes at https://quarto.org/docs/presentations/revealjs/themes.html
@@ -8,18 +8,46 @@ format:
         chalkboard: true
         code-line-numbers: false
         preview-links: auto
-author: "David Wilby"
-date: 04/08/2024 #Date in US format... MM/DD/YYYY
+author: "Gaurav Bhalerao, Dan Cummins, Paddy Roddy,<br> Michael Tso, David Wilby"
+date: 05/02/2024 #Date in US format... MM/DD/YYYY
 date-format: "ddd Do MMMM YYYY"
-footer: "these slides: [davidwilby.dev/quarto-presentation-template](https://davidwilby.dev/quarto-presentation-template) - {{< fa brands github >}} [improve this talk!](https://github.com/davidwilby/quarto-presentation-template)"
 from: markdown+emoji
 ---
 
-## First slide!
+## The Team!
 
-## Second slide! {.smaller}
+![](assets/images/team-photo.jpg)
 
-Content!
+## The problem
 
-Emojis are supported :smile:
+* :nerd_face: MATLAB is really popular with researchers
+* :technologist: Not so much with RSEs
+* :confounded: There is limited guidance on good practice
+* :mechanic: So lots of MATLAB-based research could be more reproducible & sustainable
+
+## The solution
+
+:book: Guidance for researchers via a handbook/course.
+
+:tada: Enter: **repliMAT**!
+
+:recycle: A guide for reproducible MATLAB projects
+
+## Hack day! 
+
+### Templates for MATLAB project organisation!
+
+
+
+## Project Organisation
+
+Encouraging good practice via project organisation
+
+e.g.
+
++ Keep raw data separate from processed data and only change programatically,
++ Documentation
++ Tests
++ Readme
++ Licenses
 
